@@ -1,0 +1,248 @@
+/**
+ * Static Products Data - Product catalog for Cafe & Restaurant
+ * 
+ * THIS FILE IS MANAGED BY ADMIN PANEL - DO NOT EDIT MANUALLY
+ * This file is managed by the admin panel. Run the admin panel to update products.
+ * 
+ * DO NOT modify this file manually - use the admin panel instead.
+ * 
+ * After admin panel updates, restart the server for changes to take effect.
+ */
+
+// Product catalog - static product data using JS objects
+export const PRODUCTS = [
+  {
+    id: "1",
+    name: "Espresso Classic",
+    category: "coffee",
+    price: 3.5,
+    description: "Classic espresso shot with premium beans",
+    image: "/images/products/espresso.jpg",
+    tags: ["espresso", "classic", "premium"],
+    ingredients: ["arabica beans", "water", "pressure"],
+    prepTime: "2-3 min",
+    cookTime: "25-30 sec",
+    isAvailable: true,
+    featured: true,
+  },
+  {
+    id: "2",
+    name: "Americano Deluxe",
+    category: "coffee",
+    price: 4.25,
+    description: "Smooth americano with a rich crema layer",
+    image: "/images/products/americano.jpg",
+    tags: ["americano", "smooth", "rich"],
+    ingredients: ["espresso shots", "hot water", "cream"],
+    prepTime: "3-4 min",
+    cookTime: "30-35 sec",
+    isAvailable: true,
+    featured: false,
+  },
+  {
+    id: "3",
+    name: "Cappuccino Art",
+    category: "coffee",
+    price: 4.75,
+    description: "Perfect cappuccino with latte art",
+    image: "/images/products/cappuccino.jpg",
+    tags: ["cappuccino", "latte-art", "creamy"],
+    ingredients: ["espresso shots", "steamed milk", "foam"],
+    prepTime: "4-5 min",
+    cookTime: "35-40 sec",
+    isAvailable: true,
+    featured: false,
+  },
+  {
+    id: "4",
+    name: "Latte Macchiato",
+    category: "coffee",
+    price: 5.0,
+    description: "Layered latte with espresso poured over milk",
+    image: "/images/products/latte.jpg",
+    tags: ["latte", "layered", "milky"],
+    ingredients: ["espresso shots", "steamed milk", "milk foam"],
+    prepTime: "5-6 min",
+    cookTime: "40-45 sec",
+    isAvailable: true,
+    featured: true,
+  },
+  {
+    id: "5",
+    name: "Cold Brew Signature",
+    category: "coffee",
+    price: 5.5,
+    description: "Slow-steeped cold brew coffee, 12 hours",
+    image: "/images/products/cold-brew.jpg",
+    tags: ["cold-brew", "smooth", "refreshing"],
+    ingredients: ["coarse ground coffee", "cold water", "time"],
+    prepTime: "12 hours (prepared daily)",
+    cookTime: "served cold",
+    isAvailable: true,
+    featured: false,
+  },
+  {
+    id: "6",
+    name: "Green Tea Matcha",
+    category: "tea",
+    price: 4.25,
+    description: "Traditional Japanese matcha tea ceremony",
+    image: "/images/products/matcha.jpg",
+    tags: ["matcha", "japanese", "ceremony"],
+    ingredients: ["matcha powder", "hot water", "whisk"],
+    prepTime: "3-4 min",
+    cookTime: "30-35 sec",
+    isAvailable: true,
+    featured: false,
+  },
+  {
+    id: "7",
+    name: "Croissant Butter",
+    category: "food",
+    price: 3.75,
+    description: "Freshly baked butter croissant",
+    image: "/images/products/croissant.jpg",
+    tags: ["croissant", "butter", "fresh"],
+    ingredients: ["butter", "flour", "yeast"],
+    prepTime: " warmed serving",
+    cookTime: "baked fresh daily",
+    isAvailable: true,
+    featured: true,
+  },
+  {
+    id: "8",
+    name: "Chocolate Croissant",
+    category: "food",
+    price: 4.25,
+    description: "Chocolate-filled croissant pain au chocolat",
+    image: "/images/products/chocolate-croissant.jpg",
+    tags: ["croissant", "chocolate", "pain-au-chocolat"],
+    ingredients: ["butter", "flour", "chocolate", "yeast"],
+    prepTime: " warmed serving",
+    cookTime: "baked fresh daily",
+    isAvailable: true,
+    featured: false,
+  },
+  {
+    id: "9",
+    name: "Blueberry Muffin",
+    category: "food",
+    price: 4.5,
+    description: "Fresh blueberry muffin with streusel topping",
+    image: "/images/products/muffin.jpg",
+    tags: ["muffin", "blueberry", "fresh"],
+    ingredients: ["flour", "blueberries", "sugar", "butter"],
+    prepTime: " room temperature",
+    cookTime: "baked fresh daily",
+    isAvailable: true,
+    featured: false,
+  },
+  {
+    id: "10",
+    name: "Chocolate Cake Slice",
+    category: "dessert",
+    price: 5.75,
+    description: "Rich chocolate cake with ganache topping",
+    image: "/images/products/chocolate-cake.jpg",
+    tags: ["chocolate", "cake", "ganache"],
+    ingredients: ["cocoa", "flour", "sugar", "cream"],
+    prepTime: " room temperature",
+    cookTime: "served chilled",
+    isAvailable: true,
+    featured: true,
+  },
+  {
+    id: "11",
+    name: "Tiramisu Classic",
+    category: "dessert",
+    price: 6.5,
+    description: "Authentic Italian tiramisu with mascarpone",
+    image: "/images/products/tiramisu.jpg",
+    tags: ["tiramisu", "italian", "mascarpone"],
+    ingredients: ["ladyfingers", "mascarpone", "coffee", "cocoa"],
+    prepTime: " room temperature",
+    cookTime: "chilled serving",
+    isAvailable: true,
+    featured: false,
+  },
+  {
+    id: "12",
+    name: "Affogato Deluxe",
+    category: "dessert",
+    price: 5.25,
+    description: "Vanilla gelato shot with espresso and cocoa",
+    image: "/images/products/affogato.jpg",
+    tags: ["affogato", "gelato", "espresso"],
+    ingredients: ["vanilla gelato", "espresso", "cocoa powder"],
+    prepTime: "2-3 min",
+    cookTime: "30 sec",
+    isAvailable: true,
+    featured: false,
+  },
+  {
+    id: "13",
+    name: "Iced Caramel Latte",
+    category: "drinks",
+    price: 5.0,
+    description: "Iced latte with caramel syrup and milk",
+    image: "/images/products/iced-latte.jpg",
+    tags: ["iced", "caramel", "latte"],
+    ingredients: ["espresso", "caramel syrup", "milk", "ice"],
+    prepTime: "3-4 min",
+    cookTime: "served over ice",
+    isAvailable: true,
+    featured: true,
+  },
+  {
+    id: "14",
+    name: "Fresh Orange Juice",
+    category: "drinks",
+    price: 3.75,
+    description: "Freshly squeezed orange juice",
+    image: "/images/products/orange-juice.jpg",
+    tags: ["fresh", "orange", "vitamin-c"],
+    ingredients: ["oranges", "sugar"],
+    prepTime: " served fresh",
+    cookTime: "none",
+    isAvailable: true,
+    featured: false,
+  },
+  {
+    id: "15",
+    name: "Mineral Water Sparkling",
+    category: "drinks",
+    price: 2.5,
+    description: "Premium sparkling mineral water",
+    image: "/images/products/sparkling-water.jpg",
+    tags: ["water", "sparkling", "premium"],
+    ingredients: ["carbonated water", "minerals"],
+    prepTime: " chilled serving",
+    cookTime: "none",
+    isAvailable: true,
+    featured: false,
+  },
+];
+
+// Helper function to get products by category
+export const getProductsByCategory = (category: string) => {
+  return PRODUCTS.filter((product) => product.category === category);
+};
+
+// Helper function to get featured products
+export const getFeaturedProducts = () => {
+  return PRODUCTS.filter((product) => product.featured && product.isAvailable);
+};
+
+// Helper function to get product by ID
+export const getProductById = (id: string) => {
+  return PRODUCTS.find((product) => product.id === id);
+};
+
+// Available categories
+export const CATEGORIES = [
+  { id: "coffee", label: "Coffee & Tea" },
+  { id: "tea", label: "Tea" },
+  { id: "food", label: "Food" },
+  { id: "dessert", label: "Desserts" },
+  { id: "drinks", label: "Cold Drinks" },
+];
